@@ -34,3 +34,35 @@ main {
 .menu-category ul li {
     padding: 5px 0;
 }
+
+/* Reservation Form Styles */
+#reservations form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+#reservations label {
+    margin-top: 10px;
+}
+
+#reservations input, #reservations button {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+#reservations button {
+    margin-top: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#reservations button:hover {
+    background-color: #555;
+}
+
+

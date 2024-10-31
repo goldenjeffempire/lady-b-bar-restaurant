@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations - LADY B BAR AND RESTAURANT</title>
+    <link rel="stylesheet" href="../assets/styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>LADY B BAR AND RESTAURANT</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reservations.html">Reservations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reservations">
+            <h2>Make a Reservation</h2>
+            <p>Book your table in advance!</p>
+            <form action="#" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="20" required>
+
+                <button type="submit">Submit Reservation</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LADY B BAR AND RESTAURANT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
